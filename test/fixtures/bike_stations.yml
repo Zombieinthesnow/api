@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  name: MyString
+  terminalName: MyString
+  lastCommWithServer: 1
+  lat: 1
+  long: 1
+  installed: MyString
+  locked: MyString
+  installDate: 1
+  removalDate: 1
+  temporary: MyString
+  public: MyString
+  nbBikes: 1
+  nbEmptyDocks: 1
+  latestUpdateTime: 1
+
+two:
+  id: 1
+  name: MyString
+  terminalName: MyString
+  lastCommWithServer: 1
+  lat: 1
+  long: 1
+  installed: MyString
+  locked: MyString
+  installDate: 1
+  removalDate: 1
+  temporary: MyString
+  public: MyString
+  nbBikes: 1
+  nbEmptyDocks: 1
+  latestUpdateTime: 1

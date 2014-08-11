@@ -8,6 +8,11 @@ Rails.application.routes.draw do
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
+
+
+# my example of a route 
+
+  #get "/bike_stations/num_bikes" => "home#num_bikes"
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
 

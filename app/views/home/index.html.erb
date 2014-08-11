@@ -1,1 +1,36 @@
-Welcome Home! 
+<h1> Welcome Home! </h1>
+
+
+<% @stations.each do |station| %>
+
+<div>
+<h3>Here is a bike station:</h3>
+
+<%= station.name %></br>
+<%= station.terminalName %> </br>
+<%= station.lastCommWithServer %></br>
+<%= station.lat %></br>
+<%= station.long %></br>
+<%= station.installed %></br>
+<%= station.locked %></br>
+<%= station.installDate %></br>
+<%= station.removalDate %></br>
+<%= station.temporary %></br>
+<%= station.publicStation %></br>
+<%= station.nbBikes %></br>
+<%= station.nbEmptyDocks %></br>
+<%= station.latestUpdateTime %></br>
+<%= station.created_at %></br>
+<%= station.updated_at %></br>
+
+
+ <%= @doc %>
+
+
+
+</div>
+
+
+<% end %>
+
+
