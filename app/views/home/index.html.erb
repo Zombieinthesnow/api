@@ -6,6 +6,7 @@
 <div>
 <h3>Here is a bike station:</h3>
 
+Station id: <%= station.bike_station_id %> </br>
 <%= station.name %></br>
 <%= station.terminalName %> </br>
 <%= station.lastCommWithServer %></br>
@@ -17,14 +18,15 @@
 <%= station.removalDate %></br>
 <%= station.temporary %></br>
 <%= station.publicStation %></br>
-<%= station.nbBikes %></br>
+<b> Number of bikes at station: <%= station.nbBikes %> </b></br>
 <%= station.nbEmptyDocks %></br>
 <%= station.latestUpdateTime %></br>
 <%= station.created_at %></br>
 <%= station.updated_at %></br>
+</br>
 
 
- <%= @doc %>
+
 
 
 
