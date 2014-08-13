@@ -33,6 +33,12 @@ class HomeController < ApplicationController
     end
 
 
+    #after I have updated the database respond with encoded JSON of each object 
+
+    bike_json = BikeStation.all
+    puts ActiveSupport::JSON.encode(bike_json) 
+
+
 end
 
 
