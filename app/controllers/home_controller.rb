@@ -84,8 +84,8 @@ document.xpath("//station").each do |node|
     num_Empty_Docks = node.xpath("nbemptydocks").text
     latest_Update_Time = node.xpath("latestupdatetime").text
 
-puts ""
-    puts "bike station id #{bsid}"
+#puts ""
+    #puts "bike station id #{bsid}"
 
 #NOTE: make sure the order is correct 
     # 1.find the station by id 
@@ -120,8 +120,8 @@ or
 
      
 =end
-puts "end of update "
-puts ""
+#puts "end of update "
+#puts ""
            end #end of document loop
                                   
 
