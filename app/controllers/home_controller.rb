@@ -3,9 +3,6 @@ require 'open-uri'
 
 class HomeController < ApplicationController
 
-
-
-
 	def index
 
 		@stations = BikeStation.all
