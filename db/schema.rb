@@ -11,23 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140813032236) do
+ActiveRecord::Schema.define(version: 20140813040453) do
 
   create_table "bike_stations", force: true do |t|
     t.string   "name"
-    t.string   "terminalName"
-    t.integer  "lastCommWithServer"
+    t.string   "terminal_name"
+    t.integer  "last_comm_with_server"
     t.float    "lat"
     t.float    "long"
     t.string   "installed"
     t.string   "locked"
-    t.integer  "installDate"
-    t.integer  "removalDate"
+    t.integer  "install_date"
+    t.integer  "removal_date"
     t.string   "temporary"
-    t.string   "publicStation"
-    t.integer  "nbBikes"
-    t.integer  "nbEmptyDocks"
-    t.integer  "latestUpdateTime"
+    t.string   "public_station"
+    t.integer  "num_of_bikes"
+    t.integer  "num_of_empty_docks"
+    t.integer  "latest_updated_time"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "bike_station_id"
